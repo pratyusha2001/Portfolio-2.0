@@ -1,0 +1,218 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-size:20px;
+}
+#nav{
+    font-size:18px;
+    padding:20px;
+    font-family: Garamond, serif;
+}
+
+#nav a{
+    color:white;
+    font-size:20px;
+    padding:10px;
+    font-family: Garamond, serif;
+}
+
+#nav a:hover{
+    color:rgb(16, 230, 219);
+    text-decoration: none;
+    font-weight: bold;
+}
+#bio{
+    padding-top: 250px; 
+    padding-bottom: 320px;
+    padding-right: 50px;
+    text-align: center;
+    background:url("http://chromethemer.com/wallpapers/chromebook-wallpapers/download/dark-paladin-1920x1080.jpg");
+    max-width:100%;height:auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:rgb(255, 4, 142);
+}
+@keyframes an1 {
+    from {-webkit-text-stroke-width: 2px;}
+    to {-webkit-text-stroke-width: 1px;}
+  }
+.name{
+    color:white;
+    position: relative;
+    animation: an1 1s infinite;
+    animation-duration: 1s; 
+    font-size: 50px;   
+
+    color: white;
+    font-size: 50px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 4, 142);
+}
+
+p{
+    font-size:40px;
+    text-align: left;
+    font-family: 'Gabriola', Arial;
+}
+.fa
+{
+    padding: 16px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 40px;
+}
+.fa:hover 
+{
+    opacity: 0.9;
+}
+
+.fa-linkedin 
+{
+    background: #007bb5;
+    color: white;
+    margin-top: 10px;
+}
+.fa-github
+{
+    color:red;
+    margin-left: 10px;
+}
+.glyphicon{
+    padding:15px;
+    margin-left: 20px;
+}
+#edu{
+    padding-top:50px;
+    padding-bottom: 100px;
+    font-weight: 700;
+    background: linear-gradient(rgb(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("https://wallpaperaccess.com/full/3847366.jpg");
+    color:rgb(0, 180, 252);
+}
+.header1{
+    color: rgb(0, 26, 255);
+    padding-bottom: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation: an2 1s infinite;
+    animation-duration: 1s; 
+}
+@keyframes an2 {
+  from {text-shadow: 4px 4px rgb(245, 78, 78);}
+    to {text-shadow: 4px 4px rgb(241, 210, 152);}
+  }
+#project{
+    background: linear-gradient(rgb(65, 139, 168),rgba(28, 0, 105, 0.815), rgb(65, 139, 168));
+    padding-top: 100px;
+    padding-bottom: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header2{
+    padding-bottom: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation: an4 1s infinite;
+    animation-duration: 1s; 
+    color: aqua;
+}
+@keyframes an4 {
+  from {text-shadow: 4px 4px rgb(229, 255, 0);}
+    to {text-shadow: 4px 4px rgb(255, 4, 88);}
+  }
+.panel-heading{
+    font-size: 20px;
+    color:rgb(82, 0, 235);
+    font-weight: 700;
+}
+.panel-body{
+    color:rgb(65, 139, 168);
+    font-weight: 300;
+    font-size: 20px;
+}
+.bttn1{
+    padding:5px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 50px;
+    font-size: 15px;
+    margin-left: 18px;
+    margin-bottom: 25px;
+    background:rgb(107, 209, 223);
+    animation: an5 1s infinite;
+    animation-duration: 1s; 
+    color: aqua;
+}
+.bttn2{
+    font-size: 15px;
+    padding:5px;
+    padding:5px;
+    padding-top:10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 50px;
+    background:#0388f4;
+    color:blue;
+}
+.bttn1:hover {
+        background: #03e9f4;
+        color: #fff;
+        width:15%;
+        border-radius: 50px;
+        border:none;
+        box-shadow: 0 0 5px #03e9f4,
+                    0 0 25px #03e9f4,
+                    0 0 50px #03e9f4,
+                    0 0 100px #03e9f4;
+      
+}
+
+.bttn2:hover {
+    top: 0;
+    left: -100%;
+    width:15%;
+    height: 100%;
+    background: linear-gradient(270deg, transparent, #0388f4);
+    animation: btn-anim1 1s linear infinite;
+  }
+  
+@keyframes bttn2-anim1 {
+    0% {
+      left: -100%;
+    }
+    50%,100% {
+      left: 100%;
+    }
+}
+#accomp{
+    background: green;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    background: linear-gradient(rgb(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("https://media.bitdegree.org/storage/media/images/2018/08/what-is-a-web-developer.jpg");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width:100%;height:auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+.header3{
+    padding-bottom: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation: an3 1s infinite;
+    animation-duration: 1s; 
+    padding-bottom: 100px;
+}
+@keyframes an3 {
+  from {text-shadow: 4px 4px rgb(255, 146, 4);}
+    to {text-shadow: 4px 4px rgb(255, 4, 4);}
+  }
+
+#accomp li{
+    color: rgb(214, 228, 138);
+    font-size: 30px;
+    font-family: Gabriola,Arial;
+}
+
